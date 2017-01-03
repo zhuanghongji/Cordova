@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        function showToast() {
+            // 调用 Native Toast
+            navigator.WebToast.showToast("测试成功");
+        }
+    </script>
+</head>
+<body>
+<h1>Cordova Toast Test</h1>
+<p>
+    <input type="button" value="showToast" onclick="showToast();"/>
+</p>
+</body>
+</html>

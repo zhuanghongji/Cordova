@@ -21,8 +21,10 @@ public class MainActivity extends CordovaActivity {
 //        // Set by <content src="index.html" /> in config.xml
 //        loadUrl(launchUrl);
 
-        String cameraAsset = "file:///android_asset/test/camera/index.html";
-        String cameraHttp = "https://github.com/zhuanghongji/Cordova/blob/master/Sample/app/src/main/assets/test/camera/";
+//        String cameraAsset = "file:///android_asset/test/camera/index.html";
+//        loadUrl(cameraAsset);
+
+        String cameraAsset = "file:///android_asset/test/toast/index.html";
         loadUrl(cameraAsset);
     }
 }
